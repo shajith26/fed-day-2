@@ -1,0 +1,188 @@
+.container{
+    width: 80%;
+    margin: auto;
+    outline: solid 2px;
+    
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+width: 30%;
+border: solid 2px red;
+
+}
+.list{
+    width: 50%;
+    border: solid 2px red;
+}
+.flex-banner{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px
+}
+.banner-text{
+    width:50%;
+    height: 296px;
+    border: solid 2px yellow;
+}
+.banner-image{
+    width: 50%;
+    height: 296px;
+    border: solid 2px yellow;
+}
+.flex-about{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.about-tittle{
+    width: 100%;
+    height: 100px;
+    outline: solid 2px;
+}
+.about-1{
+    width: 50%;
+    height: 400px;
+    outline: solid 2px;
+}
+.flex-interest{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.text-1{
+    width: 25%;
+    height: 200px;
+    border: solid 2px green;
+}
+.achievement-container{
+    width: 100%;
+    height: 150px;
+    outline: solid 2px;
+}
+.flex-achievements{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.atext-1{
+    width: 25%;
+    height: 150px ;
+    padding: 10px;
+    border: solid 2px blue;
+}
+
+.menu-text{
+width: 100%;
+height:400px ;
+margin-bottom: 10px;
+border: solid 2px orange;
+}
+.flex-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.menu-1{
+    width: 33.33%;
+    height: 250px;
+    outline: solid 2px orange;
+}
+.flex-review{
+    padding: 10px;
+}
+.review-1{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    outline: solid 2px greenyellow;
+}
+.review-2{
+    width: 100%;
+    height: 100px;
+    outline: solid 2px greenyellow;
+}
+.event-1{
+     width: 100%;
+     height: 50px;
+     outline: solid 2px blue;
+}
+.flex-event{
+    display: flex;
+    flex-wrap: wrap;
+}
+.event-2{
+    width: 33.33%;
+    height: 150px;
+    outline: solid 2px blue;
+}
+.chefs-tittle{
+    width: 100%;
+    height: 50px;
+    outline: solid 2px gold;
+}
+.flex-chefs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.chef-1{
+    width: 33.33%;
+    height: 200px;
+    outline: solid 2px gold;
+}
+.booking-text{
+     width: 100%;
+    height: 50px;
+    outline: solid 2px green;
+}
+.booking-image{
+    width: 100%;
+   height: 149px;
+   outline: solid 2px green;
+}
+.gtext{
+    width: 100%;
+    height: 100px;
+    outline: solid 2px yellow;
+}
+.gimage{
+    width: 100%;
+    height: 149px;
+    outline: solid 2px yellow;
+}
+.flex-help{
+    padding: 40px;
+}
+.help-tittle{
+    width: 100%;
+    height: 50px;
+    outline: solid 2px red;
+}
+.help-option{
+    width: 100%;
+    height: 400px;
+    outline: solid 2px red
+}
+.flex-contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.contact-1{
+    width: 25%;
+    height: 100px;
+    outline: solid 2px violet;
+}
+.flex-footer{
+    padding: 20px;
+}
+.footer-1{
+    width: 100%;
+    height: 50px;
+    outline: solid 2px yellow;
+}
