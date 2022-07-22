@@ -2,54 +2,61 @@
     width: auto;
     height: auto;
     margin: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border: solid 2px blue;
+    padding: 10px;
+    outline: solid 2px red;
 }
 .header{
     width: 100%;
-    height: auto;
-    /* border: solid 2px red; */
+    height: 100px;
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    border: solid 2px black;
+    box-sizing: border-box;
 }
 .logo{
     width: 20%;
-    padding-top: 30px;
-    font-size: 30px;
-    color: darkblue;
-    font-family: cursive;
+    height: 50px;
+    color: blue;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 20px;
+    outline: solid 2px red;
 }
-.navi{
+.list{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    color: blue;
+    padding-top: 20px;
+    outline: solid 2px red;
+}
+.banner-text{
+    width: 40%;
+    height: 200px;
+    outline: solid 2px greenyellow;
+}
+.about-container{
     width: 100%;
-    margin-right: 40px;
-    margin-left: 40px;
-    font-size: 20px;
+    height: 300px;
+}
+.flex-about-1{
+    padding: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.about-1{
+    width: 20%;
+    height: 50px;
+    outline: solid 2px blue;
+}
+.flex-about-2{
     display: flex;
-    /* padding: 20px; */
+    justify-content: space-around;
+    margin-left: 20px;
+    padding-right: 20px;
 }
-.home{
-    color: red;
-}
-.b1{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* margin-right: 10px; */
-    margin-left: 150px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 10px;
-}
-
-.navi a{
-    text-decoration: none;
-    margin: 10px;
-}
-.navi ul{
-    list-style: none;
-    display: flex;
-}
-.nave ul a{
-    margin: 60px;
+.about-2{
+    width: 45%;
+    height: 200px;
+    outline: solid 2px red;
 }
