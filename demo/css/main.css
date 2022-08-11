@@ -28,12 +28,7 @@ li {
     text-decoration: none;
 }
 
-.alogo-1 {
-    /* padding: 10px; */
-    border: solid 1px black;
-    background-color: aqua;
-    padding: 10px;
-}
+
 
 .logo {
     padding-top: 15px;
@@ -81,11 +76,18 @@ div h1 {
     color: white;
     border: none;
 }
-
 .flex-about {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgb(133, 137, 144);
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
 }
+/* .aboutshadow{
+    margin-left: 10px;
+} */
 
 .about-heading {
     text-align: center;
@@ -111,12 +113,8 @@ div h1 {
 }
 
 .alogo-1 {
-    /* padding-top: 50px; */
-    /* padding-right: 20px; */
-    /* color: navy; */
-    /* margin-top: 20px; */
-    margin-right: 20px;
-    margin-bottom: 20px;
+   
+
 }
 
 .link01:hover {
@@ -214,11 +212,12 @@ div h1 {
 .flex-s2 {
     display: flex;
 }
-
+.services{
+    padding-top: 30px;
+}
 .services-heading {
     text-align: center;
 }
-
 .services-1,
 .services-1 h3,
 .services-1 p {
@@ -228,6 +227,7 @@ div h1 {
 
 .ptext-1 h1 {
     text-align: center;
+    /* padding-top: 20px; */
 }
 
 .ptext-2 {
@@ -242,7 +242,9 @@ div h1 {
 }
 
 .portfolio {
-    background-color: rgb(225, 247, 255);
+    background-color: #f5f9fc;
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
 
 .portfolio-list {
@@ -318,6 +320,7 @@ div h1 {
     display: flex;
     justify-content: space-around;
     margin: 10px;
+    /* align-items: center; */
 }
 
 .portfolio-icons a {
@@ -642,6 +645,7 @@ div h1 {
     bottom: -50px;
     left: 5%;
     width: 90%;
+    height: 90px;
     background-color: rgba(0, 0, 0, 0.41);
     /* padding: 20px 20px; */
     text-align: center;
@@ -653,8 +657,9 @@ div h1 {
 .our-team-content3 h5,
 .our-team-content4 h5 {
     color: #fff;
-    font-size: 20px;
-    /* padding-bottom: 10px; */
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+
 }
 
 .our-team-content1 .hrline1,
@@ -664,7 +669,9 @@ div h1 {
     width: 80px;
     height: 1px;
     background-color: #fff;
-    margin: 8px auto;
+    /* margin: 8px auto; */
+    margin-left: 33%;
+    padding: 0%;
 }
 
 .our-team-content1 p,
@@ -672,7 +679,8 @@ div h1 {
 .our-team-content3 p,
 .our-team-content4 p {
     color: #fff;
-    font-size: 15px;
+    font-size: 10px;
+    margin: 7px;
 
 }
 
@@ -682,6 +690,7 @@ div h1 {
 .our-team-icon4 a {
     text-decoration: none;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .our-team-icon1 a:hover,
@@ -690,14 +699,16 @@ div h1 {
 .our-team-icon4 a:hover {
     color: navy;
 }
+
 .faq-section {
-    background-color:lightblue;
+    background-color: #f5f9fc;
 }
 .faq-header{
     text-align: center;
     /* background-color: lightblue; */
     margin-top: 10px;
     /* height: 40px; */
+    padding-top: 20px;
 }
 .faq-list{
     width: 100%;
@@ -732,76 +743,81 @@ div h1 {
 .contact-info2,
 .contact-info3{
     text-align: center;
-    /* box-shadow: gray; */
+    /* box-shadow: 0,0,10px grey; */
 }
 .contact-box{
     width: 45%;
-    /* box-shadow: grey; */
-    background-color: aqua;
+    box-shadow: 0 0 10px grey;
+    /* background-color: aqua; */
 }
 .contact-box2,
 .contact-box3{
     width: 25%;
-    background-color: aqua;
+    box-shadow: 0 0 10px grey;
 }
 .contact-list2{
     width: 100%;
     margin-top: 20px;
 }
+.send-message{
+    /* text-align: center; */
+    background-color: lightskyblue;
+    color: #fff;
+    border: 0;
+}
+.contact-button{
+    text-align: center;
+    
+}
+.send-message a{
+
+    text-decoration: none;
+}
 .flex-contact{
     display: flex;
 }
 .userforms{
-    background-color: aquamarine;
+    margin-left: 10px;
+    /* background-color: aquamarine; */
+    box-shadow: 0 0 10px grey;
 }
 .form-group{
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    text-align: center;
 }
 .inputname{
-    width: 50%;
-    padding-right: 10px;
+    width: 45%;
+    /* padding-left: 34px; */
 }
 .inputemail{
-    width: 50%;
+    width: 45%;
 }
 .form-group .yourname{
-    width: 100%;
+    width: 90%;
 }
 .form-group .youremail{
-    width: 100%;
+    width: 90%;
 }
 .form-group-2 .yoursubject{
-    width: 100%;
-    margin: 15px;
-    margin-right: 20px;
+    width: 90%;
 }
 .form-group-2 .yourmessage{
-    width: 100%;
+    width: 90%;
 }
 .inputsubject{
     padding-bottom: 20px;
+    text-align: center;
 }
-
-/* .userforms{
-    display: flex;
-    flex-wrap: wrap;
+.inputmessage{
+    text-align: center;
 }
-.formgroup50{
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.formgroup100{
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
-} */
 .footer-section{
     background-color: #5c768d;
     padding-top: 40px;
@@ -848,6 +864,9 @@ div h1 {
     color: #fff;
     border: 0;
     padding-top: 5px;
+}
+.nl-button a{
+    text-decoration: none;
 }
 .newsletter{
     width: 30%;
